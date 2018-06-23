@@ -1,4 +1,4 @@
-node_modules/
-public/
-vendor/
-brunch-config.js
+/public
+/node_modules
+/vendor
+/brunch-config.js

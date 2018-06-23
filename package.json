@@ -1,39 +1,39 @@
 {
-  "name": "modele-react",
+  "name": "React-E09-challenge-api-fixer",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Philippe Candille <philippe@oclock.io>",
+  "repository": "",
+  "author": "Maxime Vasse <maxime@oclock.io>",
   "license": "MIT",
   "devDependencies": {
-    "auto-reload-brunch": "^2.7.1",
-    "autoprefixer": "^8.3.0",
-    "babel-brunch": "https://github.com/babel/babel-brunch.git",
-    "babel-eslint": "^8.2.3",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1",
-    "brunch": "^2.10.12",
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-import-resolver-node": "^0.3.2",
-    "eslint-plugin-import": "^2.11.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.7.0",
+    "auto-reload-brunch": "*",
+    "autoprefixer": "*",
+    "babel-brunch": "https://github.com/babel/babel-brunch",
+    "babel-eslint": "*",
+    "babel-plugin-transform-class-properties": "*",
+    "babel-plugin-transform-object-rest-spread": "*",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*",
+    "brunch": "*",
+    "eslint": "*",
+    "eslint-config-airbnb": "*",
+    "eslint-import-resolver-node": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-jsx-a11y": "*",
+    "eslint-plugin-react": "*",
     "postcss-brunch": "0.5.0",
-    "stylus-brunch": "^2.10.0"
-  },
-  "scripts": {
-    "build": "brunch build",
-    "start": "brunch watch --server"
+    "stylus-brunch": "*"
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "babel-polyfill": "^6.26.0",
-    "chart.js": "^2.7.2",
-    "prop-types": "^15.6.1",
-    "react": "^16.3.2",
-    "react-chartjs-2": "^2.7.2",
-    "react-dom": "^16.3.2"
+    "babel-polyfill": "*",
+    "prop-types": "*",
+    "react": "*",
+    "react-dom": "*"
+  },
+  "scripts": {
+    "build": "brunch build",
+    "start": "brunch watch --server",
+    "save-deps": "rm -rf node_modules && npm update --save && npm update --save-dev"
   }
 }
